@@ -31,10 +31,16 @@ while sum(kasa) < a:
 
     i += 1
 number_of_banknoty = len(kasa)
-for k in range(number_of_banknoty):
-    banknoty500 = "500"
-    kasa500.append(banknoty500)
 
+
+def banknoty_500(kasa, kasa500):
+    number_of_banknoty = len(kasa)
+    for k in range(number_of_banknoty):
+        banknoty500 = "500"
+        kasa500.append(banknoty500)
+
+
+banknoty_500(kasa, kasa500)
 
 print(" suma : ", sum(kasa))
 print("banknoty i monety : ", kasa)
